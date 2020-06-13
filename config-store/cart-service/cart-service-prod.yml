@@ -1,0 +1,5 @@
+user:
+    cart:
+        items: 20
+        rate: 2000
+profile: prod
