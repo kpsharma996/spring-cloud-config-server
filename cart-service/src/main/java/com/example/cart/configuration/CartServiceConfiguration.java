@@ -10,6 +10,10 @@ public class CartServiceConfiguration {
     @Autowired
     Environment environment;
 
+    public String getGlobalProfile() {
+        return environment.getProperty("global.profile");
+    }
+
     public String getUserCartItems() {
         return environment.getProperty("user.cart.items");
     }
@@ -21,5 +25,7 @@ public class CartServiceConfiguration {
     public String getProfile() {
         return environment.getProperty("profile");
     }
+
+
 
 }

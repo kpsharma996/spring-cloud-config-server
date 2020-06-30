@@ -1,1 +1,2 @@
-profile: global
+global:
+    profile: global
